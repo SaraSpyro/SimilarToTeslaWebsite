@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 54px;
+}
+p{
+    color: gray;
+}
+
+#main{
+    min-height: calc(100vh - 54px);
+    display: flex;
+}
+
+.earth{
+    margin: 15px 40px;
+    font-size: large;
+}
+
+.me-2{
+    margin-left: 40px;
+}
+
+.darkColor{
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(185, 185, 185, 0.486);
+    font-size: large;
+    padding: 5px;
+}
+
+.alert{
+    width: 320px;
+    height: 74px;
+    background-color: #f4f4f4;
+    padding: 16px 16px;
+}
+
+.payWay{
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    width: 320px;
+    height: 40px;
+}
+
+.btn{
+    transition: 0.5s;
+}
+.activeBtn{
+    background-color: white;
+    border-radius: 20px;
+    width: 162px;
+    height: 32px;
+    padding: 0px 8px;
+    margin: 4px;
+    transition: 0.5s;
+}
+.activeBtn p{
+    color: black !important;
+}
+
+.zeroMargin{
+    margin: 0px;
+}
+.mLeft{
+    margin: 0px 15px;
+}
+.mTop{
+    margin-top: 30px;
+}
+.fontSizeSmall{
+    font-size: small;
+}
+
+.dBlock{
+    display: block !important;
+}
+.dNone{
+    display: none !important;
+}
+
+.counter{
+    display: flex;
+}
+.counter h4{
+    margin-left: 20px;
+}
+.counter h4 p{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.modelBtn{
+    width: 316px;
+    height: 53px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    padding: 10px;
+    display: flex;
+}
+
+.blackColor{
+    color: black !important;
+}
+.textRight{
+    text-align: right !important;
+}
+
+/* -------------------------------------------------------- */
+.mainHeader{
+    position: fixed;
+    z-index: 5;
+    font-weight: bold;
+}
+#logo{
+    width: 240px;
+    padding: 15px;
+}
+#menu{
+    width: 1000px;
+    padding: 15px;
+    padding-left: 190px;
+}
+#menu ul{
+    display: flex;
+}
+#menu ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+#otherMenu{
+    width: 267px;
+    padding: 15px;
+    float: right;
+}
+#otherMenu ul{
+    display: flex;
+}
+#otherMenu ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.fullPage{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.m3{
+    background-image: url("../images/M3-Homepage-D.avif");
+}
+.mY{
+    background-image: url("../images/Desktop-ModelY.avif");
+}
+.mX{
+    background-image: url("../images/ModelX-Homepage-D.jfif");
+}
+.mS{
+    background-image: url("../images/ms-homepage-desktop.avif");
+}
+.hP{
+    background-image: url("../images/HP-SR-Design-D.jfif");
+}
+.ac{
+    background-image: url("../images/Desktop-Accessories.webp");
+}
